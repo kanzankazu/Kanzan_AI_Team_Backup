@@ -1,0 +1,24 @@
+# Secrets & Env
+.env
+.env.*
+*.key
+*.pem
+auth.json
+
+# Hermes runtime (don't backup)
+*.db
+*.db-shm
+*.db-wal
+logs/
+cache/
+sessions/*.jsonl
+
+# Obsidian temp
+.obsidian/workspace*
+.trash/
+
+# macOS
+.DS_Store
+
+# Tokens in config
+hermes-profiles/*/config.yaml
