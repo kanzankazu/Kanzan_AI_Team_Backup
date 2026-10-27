@@ -9,3 +9,15 @@
 - Domain: AI Engineering Team
 - Structure created with SCHEMA.md, index.md, log.md
 - Tag taxonomy: architecture, development, models, qa, devops, tools, meta
+
+## [2026-10-26] ingest | Android Code Review Rules
+- Created entities/android-review-rules-bri.md (BRI-specific: MVI, BRITheme, Clean Architecture)
+- Created templates/android-review-rules-template.md (generic Android review template)
+- Source: BRI internal review guidelines document
+- Tags: development, qa, android, standards
+
+## [2026-10-27] ingest | PR Review Delegation Workflow
+- Created entities/pr-review-delegation-workflow.md
+- Documented: Bitbucket PR review via Hermes agent delegation + MCP fallback
+- Process: delegate_task → MCP timeout → REST API fallback → review generation
+- Tags: devops, tools, automation, workflow
